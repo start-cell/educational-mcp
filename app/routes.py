@@ -7,7 +7,7 @@ from __future__ import annotations
 
 from fastapi import FastAPI
 
-from .models import (
+from .pydantic_models import (
     AffectiveAnalysisRequest,
     AffectiveAnalysisResponse,
     AspectSentimentRequest,
@@ -33,7 +33,7 @@ from .models import (
     ReflectionResponse,
     StudentInteraction,
 )
-from .services import (
+from .models import (
     analyze_affective_state,
     plan_learning_path,
     run_inference_aspect_sentiment,
@@ -190,4 +190,3 @@ def create_app() -> FastAPI:
         return run_inference_intensity(payload.text)
 
     return app
-

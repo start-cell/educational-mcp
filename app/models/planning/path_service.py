@@ -8,7 +8,7 @@ from __future__ import annotations
 from collections import deque
 from typing import Dict, List
 
-from ...models import PathResponse
+from ...pydantic_models import PathResponse
 
 # 示例先修图，可替换为数据库或配置加载
 adjacency_list: Dict[str, List[str]] = {

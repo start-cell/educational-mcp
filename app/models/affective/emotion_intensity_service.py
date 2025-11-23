@@ -7,7 +7,7 @@ from __future__ import annotations
 
 from math import tanh
 
-from ...models import IntensityResponse
+from ...pydantic_models import IntensityResponse
 from .sentiment_service import POSITIVE_WORDS, NEGATIVE_WORDS
 
 

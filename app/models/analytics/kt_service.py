@@ -7,7 +7,7 @@ from __future__ import annotations
 
 from typing import Dict, List
 
-from ...models import KTResponse, StudentInteraction
+from ...pydantic_models import KTResponse, StudentInteraction
 
 
 def _time_decay_adjustment(timestamp_seq: List[float]) -> float:

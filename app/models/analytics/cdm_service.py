@@ -7,7 +7,7 @@ from __future__ import annotations
 
 from typing import Dict, List
 
-from ...models import Interaction, MasteryResponse
+from ...pydantic_models import Interaction, MasteryResponse
 
 
 class _MockDeepIRTModel:

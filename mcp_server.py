@@ -1,5 +1,4 @@
 """将 FastAPI 应用一键注册为 MCP 服务的入口脚本。"""
-#do I successfully update the file?
 from __future__ import annotations
 
 from typing import Any, Dict, Iterable, List, Optional

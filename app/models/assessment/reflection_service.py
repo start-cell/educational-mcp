@@ -7,7 +7,7 @@ from __future__ import annotations
 
 from typing import Dict, List
 
-from ...models import ReflectionRequest, ReflectionResponse
+from ...pydantic_models import ReflectionRequest, ReflectionResponse
 
 
 def generate_reflections(payload: ReflectionRequest) -> ReflectionResponse:

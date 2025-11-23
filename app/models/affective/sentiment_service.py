@@ -7,7 +7,7 @@ from __future__ import annotations
 
 from typing import Dict
 
-from ...models import SentimentResponse
+from ...pydantic_models import SentimentResponse
 
 POSITIVE_WORDS = {"好", "满意", "喜欢", "清晰", "有趣", "赞", "棒"}
 NEGATIVE_WORDS = {"差", "糟", "难", "晦涩", "失望", "生气", "不满"}

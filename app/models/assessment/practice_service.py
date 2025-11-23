@@ -7,7 +7,7 @@ from __future__ import annotations
 
 from typing import List
 
-from ...models import PracticePhase, PracticePlanRequest, PracticePlanResponse
+from ...pydantic_models import PracticePhase, PracticePlanRequest, PracticePlanResponse
 
 
 def build_practice_plan(payload: PracticePlanRequest) -> PracticePlanResponse:

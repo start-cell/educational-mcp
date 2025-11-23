@@ -8,7 +8,7 @@ from __future__ import annotations
 from statistics import mean
 from typing import List
 
-from ...models import (
+from ...pydantic_models import (
     CognitiveDiagnosisRequest,
     CognitiveDiagnosisResponse,
     ConceptDiagnosis,

@@ -7,7 +7,7 @@ from __future__ import annotations
 
 from typing import Dict, List, Sequence
 
-from ...models import GradeAnswerRequest, GradeAnswerResponse
+from ...pydantic_models import GradeAnswerRequest, GradeAnswerResponse
 
 
 def _tokenize(text: str) -> List[str]:

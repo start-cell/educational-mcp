@@ -8,7 +8,7 @@ from __future__ import annotations
 from collections import defaultdict
 from typing import Dict, List
 
-from ...models import (
+from ...pydantic_models import (
     KnowledgeTracingRequest,
     KnowledgeTracingResponse,
     SkillProgress,
