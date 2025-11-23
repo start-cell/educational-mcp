@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "edu-fastapi-mcp": {
+      "command": "python",
+      "args": [
+        "mcp_server.py"
+      ],
+      "cwd": "/Users/yanxiangyu/Desktop/educational models"
+    }
+  }
+}
